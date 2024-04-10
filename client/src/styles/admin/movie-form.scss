@@ -1,0 +1,28 @@
+.movie-form-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 55dvh;
+  width: 100%;
+  overflow: auto;
+  .custom-datetimepicker {
+    margin-bottom: 50px;
+  }
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    &:last-child {
+      margin: 0;
+    }
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

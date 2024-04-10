@@ -1,0 +1,79 @@
+@import './auth/login-page.scss';
+@import './auth/login-component.scss';
+@import './home/home.scss';
+@import './order/order.scss';
+@import './admin/admin.scss';
+@import './admin/movie-form.scss';
+@import './shared/index.scss';
+
+@media screen and (max-width: 992px) {
+  .login-component-container {
+    .form-container {
+      .form-wrapper-container {
+        .form-wrapper {
+          width: auto;
+          border: none;
+          .lottie-container {
+            height: 100px;
+            top: -50px;
+          }
+        }
+      }
+    }
+  }
+  .auth-page-container {
+    .bubble-2 {
+      height: 270px;
+      width: 270px;
+    }
+    .square-1 {
+      height: 350px;
+      width: 350px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login-component-container {
+    .form-container {
+      .form-wrapper-container {
+        .form-wrapper {
+          width: auto;
+          border: none;
+          .lottie-container {
+            height: 100px;
+            top: -50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Animations //
+@keyframes shimmer {
+  100% {
+    -webkit-mask-position: left;
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

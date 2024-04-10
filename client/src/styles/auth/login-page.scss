@@ -1,0 +1,41 @@
+.auth-page-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  .bubble-1 {
+    position: absolute;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background-color: aqua;
+    left: -220px;
+    top: -100px;
+  }
+  .bubble-2 {
+    position: absolute;
+    border-radius: 50%;
+    height: 550px;
+    width: 550px;
+    background-color: blueviolet;
+    right: -180px;
+    bottom: -140px;
+  }
+
+  .square-1 {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    background-color: rgb(69, 65, 190);
+    left: -180px;
+    bottom: -140px;
+    transform: rotate(30deg);
+  }
+  .tabs-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 18px 35px;
+  }
+}

@@ -1,0 +1,12 @@
+.loader {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  animation: 1s loader linear infinite;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  transform: translateX(50%);
+  transform: translateY(50%);
+}
